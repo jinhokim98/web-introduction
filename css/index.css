@@ -1,0 +1,18 @@
+@import url('./reset.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  /* color */
+  --primary: #7986A9;
+  --primary-varient: #E7E7EE;
+  --gray: #F5F5F5;
+  --black: #000000;
+  --white: #FFFFFF;
+}
