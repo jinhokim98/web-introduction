@@ -11,7 +11,7 @@
 <body>
   <section class="introduce">
     <aside class="myself-image">
-      <!-- <img src="../images/myself.jpg" alt="myimage" /> -->
+      <img src="../images/myself.jpg" alt="myimage" />
     </aside>
     <article class="text-introduce">
       <h1 class="motto">live with passion</h1>
@@ -171,32 +171,32 @@
   </section>
   <section class="guest-book">
     <h1 class="guest-book-title">방명록</h1>
-    <form>
+    <form id="guest-book-form">
       <fieldset>
         <label for="username" class="username-label" >이름 : </label>
-        <input id="username" class="username-style" type="text" />
+        <input id="username" class="username-style" type="text" required />
         <fieldset class="choose-favorite-movies">
           <label class="choose-movie-label">본인 취향 영화</label>
           <ul>
             <li>
-              <input type="checkbox" id="first-movie-check" />
-              <label>베테랑</label>
+              <input type="checkbox" id="first-movie-check" class="checkbox" />
+              <label for="first-movie-check">베테랑</label>
             </li>
             <li>
-              <input type="checkbox" id="second-movie-check" />
-              <label>극한직업</label>
+              <input type="checkbox" id="second-movie-check" class="checkbox"/>
+              <label for="second-movie-check">극한직업</label>
             </li>
             <li>
-              <input type="checkbox" id="third-movie-check" />
-              <label>악마는 프라다를 입는다</label>
+              <input type="checkbox" id="third-movie-check" class="checkbox" />
+              <label for="third-movie-check">악마는 프라다를 입는다</label>
             </li>
             <li>
-              <input type="checkbox" id="fourth-movie-check" />
-              <label>엘리멘탈</label>
+              <input type="checkbox" id="fourth-movie-check" class="checkbox" />
+              <label for="fourth-movie-check">엘리멘탈</label>
             </li>
             <li>
-              <input type="checkbox" id="fifth-movie-check" />
-              <label>검사외전</label>
+              <input type="checkbox" id="fifth-movie-check" class="checkbox" />
+              <label for="fifth-movie-check">검사외전</label>
             </li>
           </ul>
         </fieldset>
@@ -207,6 +207,6 @@
       </fieldset>
     </form>
   </section>
-  <script src="../js/index.js"></script>
+  <script type="module" src="../js/index.js"></script>
 </body>
 </html>

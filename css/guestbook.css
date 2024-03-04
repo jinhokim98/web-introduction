@@ -7,13 +7,13 @@
 
 .guest-book .username-label {
   font-family: var(--subtitle-font-family);
-  font-size: var(--caption-size);
+  font-size: var(--subtitle-size);
 }
 
 .guest-book .username-style {
   margin-left: 1rem;
   width: 30rem;
-  height: 2rem;
+  height: 3rem;
 }
 
 .choose-favorite-movies {
