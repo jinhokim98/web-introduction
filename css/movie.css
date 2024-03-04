@@ -1,12 +1,12 @@
-.movie {
-  position: relative;
-  width: 100%;
-  height: 100vh;
+.best-movie-title {
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+  font-family: var(--subtitle-font-family);
+  font-size: var(--subtitle-size);
 }
 
 table {
-  width: 90%;
-  height: 20rem;
+  height: 30rem;
   margin: auto;
   border-collapse: separate;
   border-spacing: 1rem 0;
@@ -16,24 +16,45 @@ thead {
   height: 5rem;
 }
 
+thead th {
+  font-family: var(--body-font-family);
+  font-size: 3rem;
+}
+
+tbody td {
+  width: 17rem;
+}
+
 tbody figure {
+  display: flex;
+  flex-direction: column;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 30rem;
+}
+
+tbody figure .image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 22rem;
   overflow: hidden;
+  cursor: pointer;
 }
 
 tbody img {
   width: 100%;
   height: 100%;
+  position: relative;
+  object-fit: cover;
   
   transform: scale(1.0);
   -webkit-transform: scale(1.0);
   -moz-transform: scale(1.0);
   -ms-transform: scale(1.0); 
   -o-transform: scale(1.0);
+  z-index: 1;
 
-  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s;
 }
 
 tbody img:hover {
@@ -42,7 +63,26 @@ tbody img:hover {
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
-  opacity: 0.5;
 
-  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s;
+}
+
+tbody figcaption {
+  margin-top: 1rem;
+  font-family: var(--body-font-family);
+  font-size: var(--caption-size);
+  color: black;
+}
+
+tbody figcaption details summary {
+  font-family: var(--subtitle-font-family);
+  font-size: var(--caption-size);
+}
+
+tbody figcaption details {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
