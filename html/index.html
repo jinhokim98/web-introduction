@@ -170,38 +170,40 @@
     </table>
   </section>
   <section class="guest-book">
-    <h1>방명록</h1>
+    <h1 class="guest-book-title">방명록</h1>
     <form>
       <fieldset>
-        <label for="username" >이름 : </label>
-        <input id="username" type="text" />
-        <label>본인 취향 영화</label>
-        <ul>
-          <li>
-            <input type="checkbox" id="first-movie-check" />
-            <label>영화1</label>
-          </li>
-          <li>
-            <input type="checkbox" id="second-movie-check" />
-            <label>영화2</label>
-          </li>
-          <li>
-            <input type="checkbox" id="third-movie-check" />
-            <label>영화3</label>
-          </li>
-          <li>
-            <input type="checkbox" id="fourth-movie-check" />
-            <label>영화4</label>
-          </li>
-          <li>
-            <input type="checkbox" id="fifth-movie-check" />
-            <label>영화5</label>
-          </li>
-        </ul>
+        <label for="username" class="username-label" >이름 : </label>
+        <input id="username" class="username-style" type="text" />
+        <fieldset class="choose-favorite-movies">
+          <label class="choose-movie-label">본인 취향 영화</label>
+          <ul>
+            <li>
+              <input type="checkbox" id="first-movie-check" />
+              <label>베테랑</label>
+            </li>
+            <li>
+              <input type="checkbox" id="second-movie-check" />
+              <label>극한직업</label>
+            </li>
+            <li>
+              <input type="checkbox" id="third-movie-check" />
+              <label>악마는 프라다를 입는다</label>
+            </li>
+            <li>
+              <input type="checkbox" id="fourth-movie-check" />
+              <label>엘리멘탈</label>
+            </li>
+            <li>
+              <input type="checkbox" id="fifth-movie-check" />
+              <label>검사외전</label>
+            </li>
+          </ul>
+        </fieldset>
       </fieldset>
-      <fieldset>
-        <button type="submit">등록</button>
-        <button type="reset">취소</button>
+      <fieldset class="button-group">
+        <button class="submit" type="submit">등록</button>
+        <button class="reset" type="reset">취소</button>
       </fieldset>
     </form>
   </section>

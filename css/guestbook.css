@@ -1,0 +1,81 @@
+.guest-book-title {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-family: var(--subtitle-font-family);
+  font-size: var(--subtitle-size);
+}
+
+.guest-book .username-label {
+  font-family: var(--subtitle-font-family);
+  font-size: var(--caption-size);
+}
+
+.guest-book .username-style {
+  margin-left: 1rem;
+  width: 30rem;
+  height: 2rem;
+}
+
+.choose-favorite-movies {
+  margin-top: 3rem;
+}
+
+.choose-favorite-movies .choose-movie-label {
+  font-family: var(--subtitle-font-family);
+  font-size: var(--caption-size);
+}
+
+.choose-favorite-movies ul {
+  display: flex;
+  height: 5rem;
+  margin: 1rem 0;
+  padding: 1rem;
+
+  border: 0.1rem solid var(--primary-varient);
+  border-radius: 0.4rem;
+}
+
+.choose-favorite-movies ul li {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.choose-favorite-movies ul li:first-child {
+  margin-left: 0;
+}
+
+.choose-favorite-movies ul li label {
+  font-family: var(--subtitle-font-family);
+  font-size: var(--caption-size);
+}
+
+.button-group {
+  display: flex;
+  width: 20rem;
+  margin-top: 2rem;
+}
+
+.button-group button {
+  flex: 1;
+  height: 3rem;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 0.4rem;
+
+  cursor: pointer;
+}
+
+.button-group .submit {
+  background-color: var(--primary);
+  color: var(--white);
+  font-family: var(--subtitle-font-family);
+  font-size: var(--body-size);
+}
+
+.button-group .reset {
+  background-color: var(--primary-varient);
+  color: var(--black);
+  font-family: var(--subtitle-font-family);
+  font-size: var(--body-size);
+}
