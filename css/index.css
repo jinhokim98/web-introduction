@@ -20,7 +20,8 @@ html {
   --white: #FFFFFF;
 
   /* typography */
-  --title-size: 4rem;
+  --motto-size: 4rem;
+  --title-size: 2.4rem;
   --subtitle-size: 1.8rem;
   --body-size: 1.4rem;
   --caption-size: 1.2rem;
