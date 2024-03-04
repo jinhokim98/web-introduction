@@ -1,0 +1,48 @@
+.movie {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+table {
+  width: 90%;
+  height: 20rem;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 1rem 0;
+}
+
+thead {
+  height: 5rem;
+}
+
+tbody figure {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+tbody img {
+  width: 100%;
+  height: 100%;
+  
+  transform: scale(1.0);
+  -webkit-transform: scale(1.0);
+  -moz-transform: scale(1.0);
+  -ms-transform: scale(1.0); 
+  -o-transform: scale(1.0);
+
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+tbody img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  opacity: 0.5;
+
+  transition: transform 0.3s, opacity 0.3s;
+}

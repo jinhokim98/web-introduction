@@ -1,0 +1,101 @@
+.introduce {
+  display: flex;
+}
+
+.myself-image {
+  position: relative;
+  min-width: 320px;
+  height: 100%;
+  margin-right: 10rem;
+}
+
+.myself-image img {
+  width: 320px;
+  height: 500px;
+}
+
+.motto {
+  margin-top: 5rem;
+  font-family: var(--motto-font-family);
+  font-size: var(--title-size);
+  white-space: nowrap;
+}
+
+.name {
+  margin-top: 5rem;
+  font-family: var(--title-font-family);
+  font-size: var(--subtitle-size);
+}
+
+.details {
+  display: flex;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.details-side {
+  width: 100%;
+  margin-right: 2rem;
+}
+
+.details-side fieldset {
+  display: flex;
+}
+
+.details-side fieldset label {
+  min-width: 7rem;
+  margin-right: 3rem;
+  font-family: var(--subtitle-font-family);
+  font-size: var(--subtitle-size);
+  line-height: 160%;
+}
+
+.details-side fieldset ul {
+  margin-bottom: 2rem;
+}
+
+.details-side a {
+  text-decoration: none;
+}
+
+.details-side fieldset li {
+  font-family: var(--body-font-family);
+  font-size: var(--body-size);
+  line-height: 180%;
+}
+
+.details-side .ment {
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.details-side .ment li {
+  font-size: 1.2rem;
+}
+
+.details-side .labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-side .mbti-label {
+  font-family: var(--body-font-family);
+  font-size: var(--caption-size);
+}
+
+.details-side .mbti .E {
+  accent-color: #F6D6D6;
+}
+
+.details-side .mbti .S {
+  accent-color: #F6F7C4;
+}
+
+.details-side .mbti .F {
+  accent-color: #A1EEBD;
+}
+
+.details-side .mbti .J {
+  accent-color: #7BD3EA;
+}

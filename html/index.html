@@ -4,49 +4,171 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/index.css" />
+  <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/white-angelica" rel="stylesheet">
   <title>Cookie's introduction</title>
 </head>
 <body>
   <section class="introduce">
-    <article class="summary">
-      <hgroup>
-        <h1 class="motto">live with passion</h1>
-        <h2 class="name">Frontend Developer 쿠키(김진호)입니다.</h2>
-      </hgroup>
-        <p class="motto-description">매 순간 주어진 상황 속에서 열정있게 살아가는 것을 목표로합니다.</p>
-        <p class="motto-description">할 때 최선을 다하고, 놀 때도 최선을 다하는 삶을 추구합니다.</p>
-        <p class="favorite-description">사람들과 이야기하는 것을 정말 좋아합니다.</p>
-        <p class="favorite-description">때론 재미있는, 때론 진지한 대화를 나누며 사람들과 쉽게 친해지며</p>
-        <p class="favorite-description">도움이나 조언이 필요한 친구들에게 많이 도와줍니다.</p>
-    </article>
-    <article class="details">
-      <fieldset>
-        <legend>Live in</legend>
-        <ul>
-          <li>서울시 마포구 성산동</li>
-          <li>선릉까지 door to door 70분</li>
-        </ul>
-      </fieldset>
-      <fieldset>
-        <legend>MBTI</legend>
-        <ul>
-          <li>E 90%</li>
-          <li>S 91%</li>
-          <li>F 78%</li>
-          <li>J 81%</li>
-        </ul>
-      </fieldset>
-      <fieldset>
-        <legend>Contact</legend>
-        <ul>
-          <li>Instagram: jinhokim98</li>
-          <li>Call: 010-5123-5905</li>
-        </ul>
-      </fieldset>
-    </article>
     <aside class="myself-image">
-      <img src="../images/myself.jpg" alt="myimage" />
+      <!-- <img src="../images/myself.jpg" alt="myimage" /> -->
     </aside>
+    <article class="text-introduce">
+      <h1 class="motto">live with passion</h1>
+      <article class="details">
+        <article class="details-side">
+          <fieldset>
+            <label>정보</label>
+            <ul>
+              <li>쿠키</li>
+              <li>본명: 김진호</li>
+              <li>Frontend Developer</li>
+              <li><a href="https://github.com/jinhokim98" target="_blank">cookie의 github</a></li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <label>Live in</label>
+            <ul>
+              <li>서울시 마포구 성산동 (홍대 근처)</li>
+              <li>선릉까지 door to door 70분</li>
+            </ul>
+          </fieldset>
+          <fieldset class="ment">
+            <ul>
+              <li class="motto-description">할 때 최선을 다하고, 놀 때 제대로 노는 삶을 추구합니다.</li>
+              <li class="favorite-description">사람들과 이야기하는 것을 정말 좋아합니다.</>
+              <li class="favorite-description">때론 재미있는, 때론 진지한 대화를 나누며 사람들과 쉽게 친해지며</>
+              <li class="favorite-description">도움이나 조언이 필요한 친구들에게 많이 도와줍니다.</li>
+            </ul>
+          </fieldset>
+        </article>
+        <article class="details-side">
+          <fieldset>
+            <label>MBTI</label>
+            <ul>
+              <li class="mbti">
+                <div class="labels">
+                  <span class="mbti-label">내향</span>
+                  <span class="mbti-label">외향</span>
+                </div>
+                <input id="E" class="mbti-range E" type="range" min="0" max="10" value="9"/>
+              </li>
+              <li class="mbti">
+                <div class="labels">
+                  <span class="mbti-label">상상</span>
+                  <span class="mbti-label">현실</span>
+                </div>
+                <input id="S" class="mbti-range S" type="range" min="0" max="10" value="9"/>
+              </li>
+              <li class="mbti">
+                <div class="labels">
+                  <span class="mbti-label">이성</span>
+                  <span class="mbti-label">감정</span>
+                </div>
+                <input id="F" class="mbti-range F" type="range" min="0" max="10" value="7"/>
+              </li>
+              <li class="mbti">
+                <div class="labels">
+                  <span class="mbti-label">즉흥</span>
+                  <span class="mbti-label">계획</span>
+                </div>
+                <input id="J" class="mbti-range J" type="range" min="0" max="10" value="8"/>
+              </li>            </ul>
+          </fieldset>
+          <fieldset>
+            <label>Contact</label>
+            <ul>
+              <li>Instagram: jinhokim98</li>
+              <li>Call: 010-5123-5905</li>
+            </ul>
+          </fieldset>
+        </article>
+      </article>
+    </article>
+  </section>
+  <section class="movie">
+    <h1>인생영화 best 5</h1>
+    <table>
+      <thead>
+        <tr>
+          <th class="first">1</th>
+          <th class="second">2</th>
+          <th class="third">3</th>
+          <th class="fourth">4</th>
+          <th class="fifth">5</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="first-movie">
+            <figure>
+              <img src="https://img.freepik.com/free-photo/beautiful-park_1417-1417.jpg" alt="first-movie" />
+              <figcaption class="first-movie-hover"></figcaption>
+            </figure>
+          </td>
+          <td class="second-movie">
+            <figure>
+              <img src="https://img.freepik.com/free-photo/beautiful-park_1417-1417.jpg" alt="second-movie" />
+              <figcaption class="second-movie-hover"></figcaption>
+            </figure>
+          </td>
+          <td class="third-movie">
+            <figure>
+              <img src="https://img.freepik.com/free-photo/beautiful-park_1417-1417.jpg" alt="third-movie" />
+              <figcaption class="third-movie-hover"></figcaption>
+            </figure>
+          </td>
+          <td class="fourth-movie">
+            <figure>
+              <img src="https://img.freepik.com/free-photo/beautiful-park_1417-1417.jpg" alt="fourth-movie" />
+              <figcaption class="fourth-movie-hover"></figcaption>
+            </figure>
+          </td>
+          <td class="fifth-movie">
+            <figure>
+              <img src="https://img.freepik.com/free-photo/beautiful-park_1417-1417.jpg" alt="fifth-movie" />
+              <figcaption class="fifth-movie-hover"></figcaption>
+            </figure>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section class="guest-book">
+    <h1>방명록</h1>
+    <form>
+      <fieldset>
+        <label for="username" >이름 : </label>
+        <input id="username" type="text" />
+        <label>본인 취향 영화</label>
+        <ul>
+          <li>
+            <input type="checkbox" id="first-movie-check" />
+            <label>영화1</label>
+          </li>
+          <li>
+            <input type="checkbox" id="second-movie-check" />
+            <label>영화2</label>
+          </li>
+          <li>
+            <input type="checkbox" id="third-movie-check" />
+            <label>영화3</label>
+          </li>
+          <li>
+            <input type="checkbox" id="fourth-movie-check" />
+            <label>영화4</label>
+          </li>
+          <li>
+            <input type="checkbox" id="fifth-movie-check" />
+            <label>영화5</label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <button type="submit">등록</button>
+        <button type="reset">취소</button>
+      </fieldset>
+    </form>
   </section>
   <script src="../js/index.js"></script>
 </body>

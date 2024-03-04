@@ -1,4 +1,7 @@
 @import url('./reset.css');
+@import url('./introduce.css');
+@import url('./movie.css');
+
 
 * {
   box-sizing: border-box;
@@ -15,4 +18,28 @@ html {
   --gray: #F5F5F5;
   --black: #000000;
   --white: #FFFFFF;
+
+  /* typography */
+  --title-size: 4rem;
+  --subtitle-size: 1.8rem;
+  --body-size: 1.4rem;
+  --caption-size: 1.2rem;
+
+  --motto-font-family: 'White Angelica';
+  --title-font-family: 'NanumSquareExtraBold';
+  --subtitle-font-family: 'NanumSquareBold';
+  --body-font-family: 'NanumSquare';
+}
+
+body {
+  font-family: 'NanumSquareBold', sans-serif;
+  line-height: 160%;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  padding: 2rem 4rem 0;
 }
